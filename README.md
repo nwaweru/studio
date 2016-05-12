@@ -1,2 +1,3 @@
 # scripts
-My handy scripts
+
+Some handy scripts I use to ease development
