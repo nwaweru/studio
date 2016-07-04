@@ -1,3 +1,5 @@
 # scripts
 
-Some handy scripts I use to ease development
+Scriptified Files
+1. Random
+2. CEH 2016 @iLabAfrica
