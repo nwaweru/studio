@@ -12,9 +12,10 @@ sudo find /var/www/* -type f -exec chmod 664 {} \;
 # Set permissions for folders in /var/www
 sudo find /var/www/* -type d -exec chmod 775 {} \;
 
-# Start Laravel setup
+# Start virtual hosts & my laravel setup
+sudo chown -R $USER:$USER /var/www/*/public_html
 sudo chmod -R 770 /var/www/*/storage /var/www/*/bootstrap/cache
-# End Laravel setup
+# End virtual hosts & my laravel setup
 
 # Confirm completion
 echo $USER', your server is ready for awesomeness!'
