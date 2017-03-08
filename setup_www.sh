@@ -20,5 +20,8 @@ sudo chown -R $USER:www-data /var/www/*/storage /var/www/*/bootstrap/cache
 sudo chmod -R 775 /var/www/*/storage /var/www/*/bootstrap/cache
 # End Laravel setup
 
+# Ensure other users can only read .htaccess
+sudo chmod 644 /var/www/*/public_html/.htaccess
+
 # Confirm completion
 echo $USER', your server is ready for awesomeness!'
