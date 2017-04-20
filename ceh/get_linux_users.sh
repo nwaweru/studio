@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ## get min UID limit ##
 l=$(grep "^UID_MIN" /etc/login.defs)
  
