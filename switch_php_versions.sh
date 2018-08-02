@@ -1,5 +1,8 @@
 #!/bin/bash
-
+###
+# Basic Usage: Run the script and pass the version number as a param e.g. 5 or 7
+# Example: sh switch_php_versions.sh 5
+###
 if [ $1 -eq 5 ]
 then
     # Disable apache module for PHP 7.2
