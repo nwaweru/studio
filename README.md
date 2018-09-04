@@ -1,4 +1,4 @@
-# My Scripts
+# Bashing Around
 
 From tutorials to production - my bash way.
 
