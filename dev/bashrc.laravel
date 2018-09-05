@@ -1,5 +1,5 @@
 # php - pass the version number to switch to (5/7)
-alias php.v="sh bash/dev/setup.php.versions.sh "
+alias php.v="sh ~/bash/dev/setup.php.versions.sh "
 
 # laravel-artisan
 alias a.mf="php artisan migrate:fresh"
