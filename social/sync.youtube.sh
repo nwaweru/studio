@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# alias youtube="sh ~/scripts/social/sync_youtube.sh"
+# alias youtube="sh ~/scripts/social/sync.youtube.sh"
 
 echo "starting sync."
 
