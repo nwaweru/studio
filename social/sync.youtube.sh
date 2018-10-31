@@ -5,7 +5,7 @@
 echo "starting sync."
 
 # your variables
-playlist="https://www.youtube.com/playlist?list=PL67Km-4Kw3GQUo1MwlSvNh7IIwry0oafY"
+playlist="https://www.youtube.com/playlist?list=PLRgSHCeagEV4KTedHndOxXLXqZr4okOCA"
 options="-i --extract-audio --audio-format mp3"
 downloadFolder="/home/$USER/Music/YouTube"
 
