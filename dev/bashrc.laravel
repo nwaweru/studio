@@ -1,6 +1,11 @@
 # php - pass the version number to switch to (5/7)
 alias php.v="sh ~/bash/dev/setup.php.versions.sh "
 
+# composer update
+alias ci="composer install"
+alias cu="composer update"
+alias cgu="composer global update"
+
 # laravel-artisan
 alias a.mf="php artisan migrate:fresh"
 alias a.mfs="php artisan migrate:fresh --seed"
