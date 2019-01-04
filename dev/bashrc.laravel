@@ -1,16 +1,16 @@
-# php - pass the version number to switch to (5/7)
+# switch php versions - pass the version number to switch to (5/7)
 alias php.v="sh ~/bash/dev/setup.php.versions.sh "
 
-# composer update
+# composer
 alias ci="composer install"
 alias cu="composer update"
 alias cgu="composer global update"
 
-# laravel-artisan
+# laravel artisan
 alias a.mf="php artisan migrate:fresh"
 alias a.mfs="php artisan migrate:fresh --seed"
 alias a.serve="php artisan serve"
 
-# laravel-mix
-alias mix.compile="npm run dev"
-alias mix.watch="npm run watch"
+# laravel mix
+alias m.compile="npm run dev"
+alias m.watch="npm run watch"
