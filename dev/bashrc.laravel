@@ -14,3 +14,6 @@ alias a.serve="php artisan serve"
 # laravel mix
 alias m.compile="npm run dev"
 alias m.watch="npm run watch"
+
+# laravel lumen
+alias l.serve="php -S localhost:8000 -t public"
