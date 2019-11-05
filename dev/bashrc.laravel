@@ -10,6 +10,7 @@ alias cgu="composer global update"
 alias a.mf="php artisan migrate:fresh"
 alias a.mfs="php artisan migrate:fresh --seed"
 alias a.serve="php artisan serve"
+alias a.routes="php artisan route:list"
 
 # laravel mix
 alias m.compile="npm run dev"
