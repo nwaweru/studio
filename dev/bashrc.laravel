@@ -11,6 +11,7 @@ alias a.mf="php artisan migrate:fresh"
 alias a.mfs="php artisan migrate:fresh --seed"
 alias a.serve="php artisan serve"
 alias a.routes="php artisan route:list"
+alias a.dump="composer dumpautoload && php artisan cache:clear && php artisan view:clear"
 
 # laravel mix
 alias m.compile="npm run dev"
@@ -18,3 +19,4 @@ alias m.watch="npm run watch"
 
 # laravel lumen
 alias l.serve="php -S localhost:8000 -t public"
+alias l.dump="composer dumpautoload && php artisan cache:clear"
