@@ -14,9 +14,9 @@ alias a.routes="php artisan route:list"
 alias a.dump="composer dumpautoload && php artisan cache:clear && php artisan view:clear"
 
 # laravel mix
-alias m.dev="yarn run watch"
-alias m.prod="yarn run watch"
-alias m.watch="yarn run watch"
+alias y.dev="yarn run dev"
+alias y.prod="yarn run prod"
+alias y.watch="yarn run watch"
 
 # laravel lumen
 alias l.serve="php -S localhost:8000 -t public"
