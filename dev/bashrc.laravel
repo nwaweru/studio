@@ -2,8 +2,8 @@
 alias php.v="sh ~/bash/dev/setup.php.versions.sh "
 
 # composer
-alias ci="composer install"
-alias cu="composer update"
+alias cu="composer update && ci"
+alias ci="rm -rf vendor/ && composer install"
 alias cgu="composer global update"
 
 # laravel artisan
