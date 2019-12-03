@@ -11,7 +11,7 @@ alias a.mf="php artisan migrate:fresh"
 alias a.mfs="php artisan migrate:fresh --seed"
 alias a.serve="php artisan serve"
 alias a.routes="php artisan route:list"
-alias a.dump="composer dumpautoload && php artisan cache:clear && php artisan config:clear && php artisan view:clear"
+alias a.dump="composer dumpautoload && php artisan cache:clear && php artisan config:clear && php artisan route:clear && php artisan view:clear"
 alias a.prod="rm -rf vendor/ && composer install --optimize-autoloader --no-dev && php artisan config:cache && php artisan route:cache"
 
 # laravel:mix
