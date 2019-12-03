@@ -1,24 +1,24 @@
-# switch php versions - pass the version number to switch to (5/7)
-alias php.v="sh ~/bash/dev/setup.php.versions.sh "
+# set composer in path
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 # composer
 alias cu="composer update && ci"
 alias ci="rm -rf vendor/ && composer install"
 alias cgu="composer global update"
 
-# laravel artisan
+# laravel:artisan
 alias a.mf="php artisan migrate:fresh"
 alias a.mfs="php artisan migrate:fresh --seed"
 alias a.serve="php artisan serve"
 alias a.routes="php artisan route:list"
-alias a.dump="composer dumpautoload && php artisan cache:clear && php artisan view:clear"
+alias a.dump="composer dumpautoload && php artisan cache:clear && php artisan config:clear && php artisan view:clear"
 alias a.prod="rm -rf vendor/ && composer install --optimize-autoloader --no-dev && php artisan config:cache && php artisan route:cache"
 
-# laravel mix
+# laravel:mix
 alias y.dev="yarn run dev"
 alias y.prod="yarn run prod"
 alias y.watch="yarn run watch"
 
-# laravel lumen
+# laravel:lumen
 alias l.serve="php -S localhost:8000 -t public"
 alias l.dump="composer dumpautoload && php artisan cache:clear"
