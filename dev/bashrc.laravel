@@ -7,12 +7,13 @@ alias ci="rm -rf vendor/ && composer install"
 alias cgu="composer global update"
 
 # laravel:artisan
-alias a.mf="php artisan migrate:fresh"
-alias a.mfs="php artisan migrate:fresh --seed"
-alias a.serve="php artisan serve"
-alias a.routes="php artisan route:list"
-alias a.dump="composer dumpautoload && php artisan cache:clear && php artisan config:clear && php artisan route:clear && php artisan view:clear"
-alias a.prod="rm -rf vendor/ && composer install --optimize-autoloader --no-dev && php artisan config:cache && php artisan route:cache"
+alias at="php artisan"
+alias at.mf="at migrate:fresh"
+alias at.mfs="at migrate:fresh --seed"
+alias at.serve="at serve"
+alias at.routes="at route:list"
+alias at.dump="composer dumpautoload && at cache:clear && at config:clear && at route:clear && at view:clear"
+alias at.prod="rm -rf vendor/ && composer install --optimize-autoloader --no-dev && at config:cache && at route:cache"
 
 # laravel:mix
 alias y.dev="yarn run dev"
@@ -21,4 +22,4 @@ alias y.watch="yarn run watch"
 
 # laravel:lumen
 alias l.serve="php -S localhost:8000 -t public"
-alias l.dump="composer dumpautoload && php artisan cache:clear"
+alias l.dump="composer dumpautoload && at cache:clear"
