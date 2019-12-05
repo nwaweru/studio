@@ -23,3 +23,8 @@ alias y.watch="yarn run watch"
 # laravel:lumen
 alias l.serve="php -S localhost:8000 -t public"
 alias l.dump="composer dumpautoload && at cache:clear"
+
+# rector: pass the directory name to be processes
+function rector() {
+    vendor/bin/rector process $1 --set laravel60
+}
