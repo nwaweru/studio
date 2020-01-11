@@ -4,7 +4,7 @@
 # Script for installing nodejs
 #
 # Pass the version as a parameter 
-# e.g. sh ~/bash/dev/install.nodejs.sh 10
+# e.g. sh ~/bash/dev/install/nodejs.sh 10
 ###################################
 
 cd ~

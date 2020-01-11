@@ -6,7 +6,7 @@
 ###################################
 #
 # pass a param of stable/dev to this script
-# e.g. sh ~/bash/dev/install.sublime3.sh stable
+# e.g. sh ~/bash/dev/install/sublime3.sh stable
 #
 
 # setup

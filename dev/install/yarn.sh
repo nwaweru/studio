@@ -5,7 +5,7 @@
 # Documentation from https://yarnpkg.com/lang/en/docs/install/#debian-stable
 ###################################
 #
-# e.g. sh ~/bash/dev/install.yarn.sh
+# e.g. sh ~/bash/dev/install/yarn.sh
 #
 
 # setup
