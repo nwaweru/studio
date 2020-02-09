@@ -6,5 +6,6 @@ sudo apt autoremove && sudo apt autoclean
 # Update
 sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
 
-# Update youtube-dl | Remove this if you do not use youtube-dl
-sudo youtube-dl -U
+if [ sudo dpkg -s youtube-dl 2>/dev/null >/dev/null ]; then
+  sudo youtube-dl -U
+fi
