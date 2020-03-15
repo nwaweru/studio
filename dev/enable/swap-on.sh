@@ -1,9 +1,11 @@
 #!/bin/bash
 
-# TODO: set space dynamically
 free -h
 df -h
+
+# TODO: set space dynamically
 sudo fallocate -l 8G /swapfile
+
 ls -lh /swapfile
 sudo chmod 600 /swapfile
 ls -lh /swapfile
