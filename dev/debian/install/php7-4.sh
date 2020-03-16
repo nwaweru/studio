@@ -12,7 +12,7 @@ sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
 # sudo apt -y install php7.4
 
 # additional packages
-# sudo apt-get install php7.4-{bcmath,bz2,intl,gd,mbstring,mysql,zip}
+# sudo apt-get install zip php7.4-{bcmath,dom,bz2,intl,gd,mbstring,mysql,zip}
 
 # quick fix: auto-remove updated packages
 sudo apt autoremove && sudo apt autoclean
