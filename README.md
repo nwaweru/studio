@@ -8,4 +8,4 @@ I needed to get up and running quickly with my clean install, so, I started savi
 
 Kindly use the repo as a template. My setup may not work for you plus I am always updating the repo.
 
-If you are more script-oriented, feel free to send suggestions to me via ndiranguwaweru@gmail.com
+If you are more script-oriented, feel free to send suggestions to me via nwaweru@drash.co.ke
