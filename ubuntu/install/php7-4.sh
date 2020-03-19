@@ -4,12 +4,21 @@ sudo apt install php libapache2-mod-php
 sudo systemctl restart apache2
 
 sudo apt install software-properties-common
-sudo add-apt-repository ppa:ondrej/php
-sudo add-apt-repository ppa:ondrej/apache2
+
+php7="ondrej/php" # ondrej/php PPA
+
+if ! grep -q "^deb .*$php7" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
+    sudo add-apt-repository ppa:$php7
+fi
+
+apache2="ondrej/apache2" # ondrej/apache2 PPA
+
+if ! grep -q "^deb .*$apache2" /etc/apt/sources.list /etc/apt/sources.list.d/*; then
+    sudo add-apt-repository ppa:$apache2
+fi
 
 sudo apt update && sudo apt upgrade
 sudo apt autoremove && sudo apt autoclean
 
-sudo apt-get install php7.4
-
-sudo apt-get install zip php7.4-{bcmath,dom,curl,bz2,intl,gd,mbstring,mysql,zip}
+sudo apt-get install zip php7.4 php7.4-bcmath php7.4-dom php7.4-mbstring
+#curl,bz2,intl,gd,,mysql,zip}
