@@ -1,18 +1,16 @@
 #!/bin/bash
 
-# alias youtube="sh ~/scripts/social/sync.youtube.sh"
+echo "Starting sync..."
 
-echo "starting sync."
-
-# your variables
+# variables
 playlist="https://www.youtube.com/playlist?list=PLRgSHCeagEV4KTedHndOxXLXqZr4okOCA"
 options="-i --extract-audio --audio-format mp3"
 downloadFolder="/home/$USER/Music/YouTube"
 
-# remove existing files
+# remove existing songs
 rm -rf $downloadFolder && mkdir $downloadFolder
 
-# download the playlist with the defined options
+# donwload the entire playlist again (+ new music added)
 cd $downloadFolder && youtube-dl $options $playlist
 
-echo "coolio. your local playlist has been synced."
+echo "Ready to rock!
