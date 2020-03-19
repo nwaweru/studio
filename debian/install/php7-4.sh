@@ -6,7 +6,7 @@ sudo wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gp
 echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/php.list
 
 # quick fix: updates existing php
-sudo apt update && sudo apt upgrade && sudo apt dist-upgrade
+sudo apt update && sudo apt upgrade
 
 # installation
 # sudo apt -y install php7.4
