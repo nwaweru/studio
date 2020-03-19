@@ -10,6 +10,6 @@ usermod -aG sudo $1
 # TODO: optional to enable creation of OTHER users.
 echo 'Enabling ssh for '$1'...'
 # rm -rf /home/$1/.ssh
-cp -r /root/.ssh /home/$1
+cp -r /root/.ssh /home/$1/
 chown -R $1:$1 /home/$1/.ssh
 echo $1' created successfully.'
