@@ -6,4 +6,6 @@ I needed to get up and running quickly with my clean install, so, I started savi
 
 ## Disclaimer
 
-Kindly use the repo as a template. My setup may not work for you plus I am always updating the repo.
+Kindly use the repo as a template.
+
+My setup may not work for you plus I am always messing with the repo.
