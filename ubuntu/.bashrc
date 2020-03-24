@@ -1,10 +1,15 @@
 # update os (debian)
-alias uos="sh ~/bash/debian/update/os.sh"
+alias uos="sh ~/bash/ubuntu/update/os.sh"
 
-# handle PATH: composer
+# PATH: composer
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
-# git:basics
+# PATH: ruby gems
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+
+# git: basics
 alias remote="git remote -v"
 alias status="git status"
 alias branch="git branch"
@@ -14,7 +19,7 @@ alias checkout="git checkout"
 alias commit="git add --all && git commit"
 alias push="git push"
 
-# git:push:force
+# git: push:force
 alias fk.dev="git push -u origin dev -f"
 alias fk.master="git push -u origin master -f"
 
@@ -97,6 +102,3 @@ function rector() {
 
 # deployer
 alias deploy="at deploy"
-
-# youtube-dl
-alias youtube="rm -rf ~/Music/YouTube && mkdir ~/Music/YouTube && cd ~/Music/YouTube && youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/playlist?list=PL67Km-4Kw3GTBH9ZjJTpA9Ezb-n4OZuyl"
