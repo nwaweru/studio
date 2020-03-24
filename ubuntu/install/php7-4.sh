@@ -1,9 +1,7 @@
 #!/bin/sh
 
-sudo apt install php libapache2-mod-php
+sudo apt install software-properties-common php libapache2-mod-php
 sudo systemctl restart apache2
-
-sudo apt install software-properties-common
 
 php7="ondrej/php" # ondrej/php PPA
 
@@ -21,4 +19,4 @@ sudo apt update && sudo apt upgrade
 sudo apt autoremove && sudo apt autoclean
 
 sudo apt-get install zip php7.4 php7.4-gd php7.4-bcmath php7.4-zip php7.4-dom php7.4-mbstring
-#curl,bz2,intl,gd,,mysql,zip}
+# curl,bz2,intl,gd,,mysql,zip}
