@@ -19,6 +19,9 @@ alias checkout="git checkout"
 alias commit="git add --all && git commit"
 alias push="git push"
 
+# git: push:sync
+alias gp.sync="git push drashlabs && git push strathmore-university"
+
 # git: push:force
 alias fk.dev="git push -u origin dev -f"
 alias fk.master="git push -u origin master -f"
