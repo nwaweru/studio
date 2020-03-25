@@ -1,5 +1,5 @@
 # update os (debian)
-alias uos="sh ~/bash/ubuntu/update/os.sh"
+alias uos="sh ~/Desktop/bash/ubuntu/update/os.sh"
 
 # PATH: composer
 export PATH="$PATH:$HOME/.config/composer/vendor/bin"
