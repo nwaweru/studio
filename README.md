@@ -1,5 +1,3 @@
-# Studio
-
 Having worked with Linux (Debian) for over 5 years, I can comfortably assume you have had to format your machine more than
 3 times already.
 
