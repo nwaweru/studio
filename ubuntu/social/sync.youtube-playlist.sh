@@ -13,4 +13,4 @@ rm -rf $downloadFolder && mkdir $downloadFolder
 # donwload the entire playlist again (+ new music added)
 cd $downloadFolder && youtube-dl $options $playlist
 
-echo "Ready to rock!
+echo "Ready to rock!"
