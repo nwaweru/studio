@@ -105,3 +105,6 @@ function rector() {
 
 # deployer
 alias deploy="at deploy"
+
+# download youtube video
+alias ytd="youtube-dl -i --extract-audio --audio-format mp3"
