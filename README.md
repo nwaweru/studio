@@ -1,14 +1,15 @@
-Having worked with Linux (Debian) for over 5 years, I can comfortably assume you have had to format your machine more than
-3 times already.
+# Studio
 
-## History
+Having worked with Linux (Debian) for over 5 years, I can comfortably assume you
+have had to format your machine more than 3 times already :)
 
-This project started when I kept going into my weekly rabbbit holes. I usually formated my machine after a month after I did
-a couple of digs. I realized I could automate some of the things that I needed after a clean install of Ubuntu.
+This repo is just some scripts I have assembled over time that help me get up and
+running when I format my machine.
 
 ## Disclaimer
 
-Kindly use the repo as a template. My setup may not work for you plus I am always messing around with the repo/my machine.
+Kindly use the repo as a template. My setup may not work for you plus I am always
+messing around with the repo/my machine.
 
 ## Contribution
 
